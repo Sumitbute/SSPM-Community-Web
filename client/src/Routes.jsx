@@ -16,6 +16,11 @@ import Jobform from "./pages/JobForm"
 import AdminDashboard from "./pages/AdminDashboard"
 import UserNetwork from "./pages/UserNetwork"
 import EventPage from "./pages/EventPage"
+import EventPage1 from "./pages/EventPage1"
+import EventPage2 from "./pages/EventPage2"
+import EventForm1 from "./pages/EventForm1"
+
+
 
 
 
@@ -46,6 +51,12 @@ const routes = () => {
                     <Route path="/group/:groupId" element={<GroupPage />} />
                     <Route path="/Opportunities" element={<Opportunities />} />
                     <Route path="/EventPage" element={<EventPage />} />
+                    <Route path="/EventPage1" element={<EventPage1 />} />
+                    <Route path="/EventPage2" element={<EventPage2 />} />
+                    <Route path="/EventForm1" element={<EventForm1 />} />
+
+                    
+                    
 
                     {/* ... Think about more pages */}
                     <Route path="/404" element={<NotFound />} />
